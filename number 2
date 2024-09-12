@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float z = 1;
+    while (2 * z > z)
+    {
+        z /= 10;
+    }
+    z *= 10;
+    cout <<z;
+    return 0;
+}
+//2 номер по идее как 1 но со сменой просто честно хз правильно или нет
